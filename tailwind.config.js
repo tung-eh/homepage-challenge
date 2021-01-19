@@ -9,10 +9,13 @@ module.exports = {
         layout: 'auto 1fr auto',
       },
       fontFamily: {
-        sans: ['Montserrat', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
+        logo: ['Heebo', 'sans-serif'],
+        footer: ['Montserrat', 'sans-serif'],
       },
       colors: {
         gray: colors.trueGray,
+        blue: colors.lightBlue,
       },
     },
   },
