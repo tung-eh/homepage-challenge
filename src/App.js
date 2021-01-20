@@ -4,6 +4,7 @@ import IntroSection from './components/IntroSection'
 import Logo from './components/Logo'
 import PortfolioSection from './components/PortfolioSection'
 import ServicesSection from './components/ServicesSection'
+import TeamSection from './components/TeamSection'
 
 const navs = [
   { text: 'Home' },
@@ -29,6 +30,7 @@ function App() {
       <IntroSection />
       <ServicesSection />
       <PortfolioSection />
+      <TeamSection />
       <div className="text-center text-xs text-gray-400">
         Tung Teng @ DevChallenges.io
       </div>
