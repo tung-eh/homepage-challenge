@@ -52,7 +52,7 @@ const PortfolioSection = () => (
           <Project {...projects.obApp} />
           <Project {...projects.jpHomepage} />
           <button className="self-end flex items-center font-medium text-2xl text-blue-500">
-            see more{' '}
+            see more
             <Icon
               className="fill-current w-6 h-6 ml-3"
               name="arrow_right_alt"

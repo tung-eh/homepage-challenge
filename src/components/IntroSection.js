@@ -14,11 +14,11 @@ const IntroSection = () => (
       <img className="w-full rounded-xl" src={introImg} alt="meeting" />
     </div>
     <div className="w-full max-w-screen-xl px-8">
-      <div className="grid gap-12 max-w-sm">
+      <div className="grid gap-12">
         <h1 className="text-5xl font-medium text-gray-600">
           Story, emotion and purpose
         </h1>
-        <p className="text-gray-500">
+        <p className="text-gray-500 max-w-lg">
           We help transform your ideas into real world applications that will
           outperform your toughest competition and help you achieve your
           strategic goals in short period of time.
@@ -27,7 +27,7 @@ const IntroSection = () => (
           <div className="text-sm text-gray-400 mb-2">
             Want us to contact you
           </div>
-          <div className="relative">
+          <div className="relative max-w-sm">
             <input
               className="bg-gray-100 text-gray-700 rounded-xl outline-none w-full py-4 pl-6 pr-12"
               placeholder="Email"

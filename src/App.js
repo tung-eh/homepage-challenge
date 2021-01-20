@@ -19,8 +19,10 @@ function App() {
       <div className="flex justify-between items-center w-full max-w-screen-2xl px-8 py-10">
         <Logo />
         <div className="grid grid-cols-5 justify-items-center font-medium text-xl text-gray-600 gap-6">
-          {navs.map(({ text }) => (
-            <a href="#somewhere">{text}</a>
+          {navs.map(({ text }, index) => (
+            <a href="#somewhere" key={index}>
+              {text}
+            </a>
           ))}
         </div>
       </div>
