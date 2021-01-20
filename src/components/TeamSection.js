@@ -4,7 +4,7 @@ import personImg3 from '../images/person3.png'
 import personImg4 from '../images/person4.png'
 
 const TeamSection = () => (
-  <div className="grid place-items-center w-full">
+  <div className="grid place-items-center w-full mb-20">
     <div className="flex items-start justify-between w-full max-w-screen-xl px-8 py-24">
       <div className="grid gap-6 max-w-xs mt-32">
         <h2 className="font-medium text-red-500">Meet the team</h2>
