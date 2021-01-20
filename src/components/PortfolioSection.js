@@ -38,7 +38,7 @@ const Project = ({ type, name, image, noMargin }) => (
 )
 
 const PortfolioSection = () => (
-  <div className="grid place-items-center w-full">
+  <div className="grid place-items-center w-full" id="portfolio">
     <div className="grid gap-4 w-full max-w-screen-xl px-8 py-24">
       <h1 className="font-medium text-4xl text-gray-600 max-w-sm">
         Good design means good business
