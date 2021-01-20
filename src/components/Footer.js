@@ -8,7 +8,7 @@ import Navs from './Navs'
 const Footer = () => (
   <div className="grid place-items-center bg-blackrussian w-full">
     <div className="w-full max-w-screen-xl text-white p-8">
-      <div className="flex justify-between my-8 mb-28">
+      <div className="flex flex-col md:flex-row gap-12 items-start justify-between my-8 mb-28">
         <div className="grid gap-2">
           <Navs />
         </div>

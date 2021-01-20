@@ -49,7 +49,7 @@ const ServicesSection = () => (
       <h1 className="text-4xl font-medium text-gray-600 max-w-sm">
         We offer high demand services
       </h1>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid md:grid-cols-3 gap-10">
         {services.map((service, index) => (
           <ServiceCard key={index} {...service} />
         ))}

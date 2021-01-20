@@ -5,8 +5,8 @@ import personImg4 from '../images/person4.png'
 
 const TeamSection = () => (
   <div className="grid place-items-center w-full mb-20" id="team">
-    <div className="flex items-start justify-between w-full max-w-screen-xl px-8 py-24">
-      <div className="grid gap-6 max-w-xs mt-32">
+    <div className="flex flex-col md:flex-row md:items-center justify-between w-full max-w-screen-xl px-8 py-24">
+      <div className="grid gap-6 max-w-xs mb-10">
         <h2 className="font-medium text-red-500">Meet the team</h2>
         <h1 className="font-medium text-gray-600 text-4xl">
           We are chilled and a laidback team
@@ -15,20 +15,23 @@ const TeamSection = () => (
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>
-      <div className="flex items-start gap-6">
+      <div
+        className="flex items-center gap-6 w-full"
+        style={{ maxWidth: '38rem' }}
+      >
         <img
-          className="rounded-2xl w-80 mt-28"
+          className="rounded-2xl w-7/12"
           src={personImg3}
           alt="woman portrait"
         />
-        <div className="flex flex-col items-start gap-6">
+        <div className="flex flex-col items-start gap-6 w-6/12">
           <img
-            className="rounded-2xl w-64"
+            className="rounded-2xl w-11/12"
             src={personImg1}
             alt="man portrait"
           />
           <img
-            className="rounded-2xl w-72"
+            className="rounded-2xl w-full"
             src={personImg2}
             alt="man portrait"
           />

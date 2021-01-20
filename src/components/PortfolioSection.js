@@ -30,7 +30,9 @@ const projects = {
 }
 
 const Project = ({ type, name, image, noMargin }) => (
-  <div className={`flex flex-col w-full ${noMargin ? '' : 'mb-36'}`}>
+  <div
+    className={`flex flex-col w-full mb-8 ${noMargin ? 'md:mb-0' : 'md:mb-36'}`}
+  >
     <img className="rounded-2xl mb-4" src={image} alt="demo" />
     <h3 className="font-light text-sm text-gray-400 mb-2">{type}</h3>
     <h2 className="font-medium text-2xl text-gray-700">{name}</h2>
@@ -43,7 +45,7 @@ const PortfolioSection = () => (
       <h1 className="font-medium text-4xl text-gray-600 max-w-sm">
         Good design means good business
       </h1>
-      <div className="grid grid-cols-2 gap-6 items-end">
+      <div className="grid md:grid-cols-2 gap-6 items-end">
         <div className="w-full">
           <Project {...projects.shDashboard} />
           <Project {...projects.bkSystem} noMargin />
