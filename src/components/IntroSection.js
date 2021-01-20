@@ -3,7 +3,7 @@ import React from 'react'
 import introImg from '../images/heroImage.jpg'
 
 const IntroSection = () => (
-  <div className="grid place-items-center gap-16 w-full py-14 mb-10">
+  <div className="grid place-items-center gap-16 w-full py-14 mb-6">
     <div className="w-full max-w-screen-xl font-medium px-8">
       <h2 className="text-blue-400 mb-6">Unhappy with your website?</h2>
       <h1 className="text-5xl text-gray-600 max-w-xl">

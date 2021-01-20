@@ -45,7 +45,7 @@ const ServiceCard = ({ icon, color, title, description }) => {
 
 const ServicesSection = () => (
   <div className="grid place-items-center min-h-screen w-full">
-    <div className="grid gap-14 w-full max-w-screen-xl p-8">
+    <div className="grid gap-14 w-full max-w-screen-xl px-8 py-24">
       <h1 className="text-4xl font-medium text-gray-600 max-w-sm">
         We offer high demand services
       </h1>
