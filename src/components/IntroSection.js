@@ -3,7 +3,7 @@ import React from 'react'
 import introImg from '../images/heroImage.jpg'
 
 const IntroSection = () => (
-  <div className="grid place-items-center gap-16 w-full py-14">
+  <div className="grid place-items-center gap-16 w-full py-14 mb-10">
     <div className="w-full max-w-screen-xl font-medium px-8">
       <h2 className="text-blue-400 mb-6">Unhappy with your website?</h2>
       <h1 className="text-5xl text-gray-600 max-w-xl">
@@ -32,7 +32,7 @@ const IntroSection = () => (
               className="bg-gray-100 text-gray-700 rounded-xl outline-none w-full py-4 pl-6 pr-12"
               placeholder="Email"
             />
-            <button className="absolute top-1  right-1 bottom-1 bg-blue-500 text-white rounded-xl w-24">
+            <button className="absolute top-1  right-1 bottom-1 bg-blue-500 font-medium text-white rounded-xl w-24">
               Join
             </button>
           </div>
