@@ -14,14 +14,22 @@ const navs = [
   },
 ]
 
-const Navs = () =>
+const Navs = ({ onClickItem = () => {} }) =>
   navs.map(({ text, link, onClick = () => {} }, index) =>
     link ? (
-      <a href={link} key={index}>
+      <a href={link} key={index} onClick={onClickItem}>
         {text}
       </a>
     ) : (
-      <button className="text-left" onClick={onClick} key={index}>
+      <button
+        className="text-left"
+        onClick={() => {
+          onClick()
+          onClickItem()
+        }}
+        key={index}
+        style={{ fontWeight: 'inherit' }}
+      >
         {text}
       </button>
     )
