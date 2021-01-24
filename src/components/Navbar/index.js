@@ -21,19 +21,16 @@ const Navbar = () => {
         } fixed z-10 top-0 left-0 w-full h-full text-white`}
       >
         <div
-          className="absolute bg-blackrussian transition duration-1000"
+          className="absolute bg-blackrussian transition-all duration-1000"
           style={{
-            width: '200%',
-            height: '200%',
-            borderRadius: '32rem',
-            transitionDuration: '1.5s',
-            transform: open
-              ? 'translate(-25%, -25%) rotate(0)'
-              : 'translate(100%, -100%) rotate(360deg)',
+            width: '100%',
+            height: '100%',
+            transitionDuration: '1s',
+            clipPath: open ? 'circle(100%)' : 'circle(0 at 125% -25%)',
           }}
         />
         <div
-          className={`absolute w-full h-full grid place-items-center content-center gap-6 text-2xl transition-opacity duration-1000 delay-200 ${
+          className={`absolute w-full h-full grid place-items-center content-center gap-6 text-2xl transition-opacity duration-1000 ${
             open ? 'opacity-1' : 'opacity-0'
           }`}
         >
